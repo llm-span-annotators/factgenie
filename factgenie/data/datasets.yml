@@ -1,0 +1,84 @@
+d2t-football:
+  class: football.Football
+  description: https://www.api-football.com/documentation-v3
+  enabled: true
+  name: d2t-football
+  splits:
+  - dev
+  - iaa
+  - test
+  - qualification-task
+d2t-gsmarena:
+  class: gsmarena.GSMArena
+  description: 'Contains mobile phone specifications from GSMArena.com.'
+  enabled: true
+  name: d2t-gsmarena
+  splits:
+  - dev
+  - iaa
+  - test
+  - qualification-task
+d2t-openweather:
+  class: openweather.OpenWeather
+  description: 'Contains weather forecasts from <a href="https://openweathermap.org/forecast5">OpenWeather</a>.'
+  enabled: true
+  name: d2t-openweather
+  splits:
+  - dev
+  - iaa
+  - test
+  - qualification-task
+propaganda-techniques:
+  class: propaganda_techniques.PropagandaTechniques
+  description: 'The Propaganda Techniques Corpus (PTC) is a corpus of propagandistic
+    techniques at annotated by 6 pro-annotators in spans. The corpus includes 451
+    articles (350k tokens) from 48 news outlets. The corpus accompanied paper [Fine-Grained
+    Analysis of Propaganda in News Article](https://aclanthology.org/D19-1565/). The
+    labels are: Loaded Language, Name Calling&Labeling, Repetition, Exaggeration&Minimization,
+    Doubt, Appeal to fear-prejudice, Flag-Waving, Causal Oversimplification, Slogans,
+    Appeal to Authority, Black-and-White Fallacy, Thought-terminating Cliches, Whataboutism,
+    Reductio ad Hitlerum, Red Herring, Bandwagon, Obfuscation&Intentional&Vagueness&Confusion,
+    Straw Men'
+  enabled: true
+  name: propaganda-techniques
+  splits:
+  - test
+wmt24-literary:
+  class: wmt.WMTDataset
+  description: WMT24 humeval data - literary domain
+  enabled: true
+  splits:
+  - en-es
+  - en-is
+  - en-uk
+  - en-cs
+  - en-zh
+  - en-ru
+  - en-hi
+  - en-ja
+wmt24-news:
+  class: wmt.WMTDataset
+  description: WMT24 humeval data - news domain
+  enabled: true
+  splits:
+  - en-es
+  - en-is
+  - en-uk
+  - en-cs
+  - en-zh
+  - en-ru
+  - en-hi
+  - en-ja
+wmt24-social:
+  class: wmt.WMTDataset
+  description: WMT24 humeval data - social domain
+  enabled: true
+  splits:
+  - en-es
+  - en-is
+  - en-uk
+  - en-cs
+  - en-zh
+  - en-ru
+  - en-hi
+  - en-ja
