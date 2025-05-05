@@ -4,9 +4,9 @@ d2t-football:
   enabled: true
   name: d2t-football
   splits:
+  - test
   - dev
   - iaa
-  - test
   - qualification-task
 d2t-gsmarena:
   class: gsmarena.GSMArena
@@ -14,9 +14,9 @@ d2t-gsmarena:
   enabled: true
   name: d2t-gsmarena
   splits:
+  - test
   - dev
   - iaa
-  - test
   - qualification-task
 d2t-openweather:
   class: openweather.OpenWeather
@@ -24,9 +24,9 @@ d2t-openweather:
   enabled: true
   name: d2t-openweather
   splits:
+  - test
   - dev
   - iaa
-  - test
   - qualification-task
 propaganda-techniques:
   class: propaganda_techniques.PropagandaTechniques
