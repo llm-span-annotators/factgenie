@@ -72,8 +72,8 @@ def generate_span_index(app, campaign):
 
 
 def preprocess_annotations(df, campaign):
-    # remove lines with nans
-    df = df.dropna()
+    # # remove lines with nans
+    # df = df.dropna()
 
     # remove annotations with type that is not in the correct range (0 - len(annotation_span_categories))
     annotation_span_categories = campaign.metadata["config"]["annotation_span_categories"]
